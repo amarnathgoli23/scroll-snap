@@ -3,8 +3,8 @@ import "./App.css";
 import { useRef } from "react";
 
 function App() {
-  // const scrollRef = useRef(null);
-  // useScrollSnap({ ref: scrollRef, duration: 100, delay: 30 });
+  const scrollRef = useRef(null);
+  useScrollSnap({ ref: scrollRef, duration: 100, delay: 30 });
   return (
     <section id="wrapper">
       <div className="heading1">First Page</div>
